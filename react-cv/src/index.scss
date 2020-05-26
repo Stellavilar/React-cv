@@ -1,3 +1,49 @@
-body {
-    background-color: cornflowerblue;
-    }
+
+.app {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: darkslategray;
+}
+   
+
+//Header
+.head {
+    width: 100vw;
+    height: 4em;
+    background-color: deeppink;
+}
+
+//Banner
+.banner {
+    height: 100vh;
+    width: 100vw;
+    background-color: dimgrey;
+}
+
+//Skills
+.skills {
+    height: 100vh;
+    width: 100vw;
+    background-color: hotpink;
+}
+
+//Projects 
+.projects {
+    height: 100vh;
+    width: 100vw;
+    background-color: mediumslateblue;
+}
+
+//Experiences
+.exp {
+    height: 100vh;
+    width: 100vw;
+    background-color: mediumturquoise;
+}
+
+//Contact
+.contact {
+    height: 10em;
+    width: 100vw;
+    background-color: black;
+}
