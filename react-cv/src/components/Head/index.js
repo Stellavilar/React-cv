@@ -1,29 +1,53 @@
 import React, {Component} from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 
+import logo from '../../img/sv..png';
+
 
 class Head extends Component {
   
   render() {
-
     return (
-    <div className="head">
-      <Link to="/#projects">
-        <button>Projects</button>
-      </Link>
-      <Link to="/#banner">
-        <button>Banner</button>
-      </Link>
-      <Link to="/#exp">
-        <button>Experiences</button>
-      </Link>
-      <Link to="/#skills">
-        <button>Compétences tech</button>
-      </Link>
-      <Link to="/#contact">
-        <button>Contact</button>
-      </Link>
-    </div>
+      <div className="head">
+        <Link to="/#banner">
+        <img
+            className="logo"
+            src={logo}
+            alt="logo"
+          />
+          </Link>
+          <div className="header">
+            <div className="name-part" >
+              <div>Stella</div>
+              <div>VILAR</div>
+            </div>
+              <div className="link-part">
+                <Link to="/#skills">
+                  <div  className="link">
+                  Compétences techniques
+                  </div>
+                </Link>
+                <Link to="/#projects">
+                  <div 
+                   className="link">
+                    Projets
+                  </div>
+                </Link>
+                <Link to="/#exp">
+                  <div 
+                   className="link">
+                    A propos de moi
+                  </div>
+                </Link>
+                <Link to="/#contact">
+                  <div 
+                   className="link">
+                    Contact
+                  </div>
+                </Link>
+              </div>
+          </div>
+      </div>
     );
   }
  

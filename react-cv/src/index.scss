@@ -1,17 +1,73 @@
+// @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
+//General
+$blue: #02354D;
+
+body {
+    margin: 0px;
+    font-family: 'Karla', sans-serif;
+};
+a {
+    color: white ;
+    text-decoration: none !important;
+};
 
 .app {
     width: 100vw;
     min-height: 100vh;
-    background-color: darkslategray;
-}
+};
    
-
 //Header
+.logo {
+    height: 5em;
+};
 .head {
     width: 100vw;
-    height: 4em;
-    background-color: deeppink;
-}
+    height: 5em;
+    background-color: $blue;
+    display: flex;
+    color: white;
+    position: fixed;
+    
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+        padding-right: 1.5em;
+    }
+
+    .name-part {
+        font-size: 2em;
+        font-weight: bold;
+        margin-left: 0.9em;
+    }
+    .link-part {
+        color: white;
+        display: flex;
+        margin-bottom: 0.3em;
+        font-size: 1.1em;
+
+        .link {
+            margin-left: 1.2em;
+            transition: all 0.5s ease-in;
+            overflow: hidden;
+
+            &:after {
+                content: '';
+                display: block;
+                width: 0;
+                height: 0.08em;
+                background: white;
+                transition: width .3s;
+            }
+            &:hover::after {
+                width: 100%;
+            }
+        }
+    }
+};
 
 //Banner
 .banner {
