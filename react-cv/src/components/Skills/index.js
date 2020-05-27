@@ -6,8 +6,8 @@ class Skills extends Component {
   render() {
 
     return (
-    <div className="skills">
-      
+    <div className="skills" id="skills">
+      skills
     </div>
     );
   }

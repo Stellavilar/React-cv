@@ -6,8 +6,8 @@ class Banner extends Component {
   render() {
 
     return (
-    <div className="banner">
-      
+    <div className="banner" id="banner">
+      banner
     </div>
     );
   }
