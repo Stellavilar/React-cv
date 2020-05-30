@@ -19,13 +19,6 @@ class App extends Component {
     return (
     <div className="app">
       <Head />
-     
-      {/* <Route path='/banner' component={Banner}/>
-      <Route path='/skills' component={Skills}/>
-      <Route path='/projects' component={Projects}/>
-      <Route path='/exp' component={Exp}/>
-      <Route path='/contact' component={Contact}/> */}
-    
       <Banner />
       <Skills />
       <Projects />
