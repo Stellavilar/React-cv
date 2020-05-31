@@ -10,7 +10,6 @@ body {
     font-family: 'Karla', sans-serif;
 };
 a {
-    color: white ;
     text-decoration: none !important;
 };
 li {
@@ -65,6 +64,10 @@ p {
         margin-bottom: 0.3em;
         font-size: 1.1em;
 
+        a {
+            color: white;
+        }
+
         .link {
             margin-left: 1.2em;
             transition: all 0.5s ease-in;
@@ -75,7 +78,7 @@ p {
                 display: block;
                 width: 0;
                 height: 0.08em;
-                background: white;
+                background: palevioletred;
                 transition: width .3s;
             }
             &:hover::after {
@@ -224,6 +227,7 @@ p {
     width: 100%;
     border-top: grey solid 1px;
     
+    a {color: black;}
 
     p{
         font-size: 1.3em;
