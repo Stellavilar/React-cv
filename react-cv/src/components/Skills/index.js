@@ -7,7 +7,6 @@ class Skills extends Component {
 
     return (
     <div className="skills" id="skills">
-      <div className="skills-text">
         <Header as="h2" className="skills-header">COMPÉTENCES TECHNIQUES</Header>
         <Segment>
           <Header as="h3">LANGAGE: </Header>
@@ -36,7 +35,6 @@ class Skills extends Component {
             <li>MongoDB</li>
           </ul>
         </Segment>
-      </div>
     </div>
     );
   }
