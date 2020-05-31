@@ -221,8 +221,28 @@ p {
 
 //Contact
 .contact {
-    height: 10em;
-    width: 100vw;
-    background-color: black;
+    width: 100%;
+    border-top: grey solid 1px;
+    
+
+    p{
+        font-size: 1.3em;
+    }
+    .linkedin-logo {
+        width: 30px;
+    }
+    .ui.container {
+        display: flex;
+        justify-content: space-around;
+        padding: 1em;
+    }
+    footer {
+        width: 100%;
+      
+        text-align: center;
+        background-color: $green;
+        color: white;
+        padding: 1em;
+    }
 }
 

@@ -8780,6 +8780,11 @@ react@^16.13.1:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
 
+reactv16-mailto@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/reactv16-mailto/-/reactv16-mailto-0.4.4.tgz#b0eed6c57e9aa67b4201f364082228ce5b8d3b3b"
+  integrity sha512-c3EW8hdRPPhPHrdV+41LwTdKRqBCoah+6D7zjmgZRlYuZk47NJfhbPNhxBt9gYiyBk5foU3uFZRutO9PHhtB2Q==
+
 read-pkg-up@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-2.0.0.tgz#6b72a8048984e0c41e79510fd5e9fa99b3b549be"
