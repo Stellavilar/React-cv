@@ -52,6 +52,12 @@ p {
         font-size: 2em;
         font-weight: bold;
         margin-left: 0.9em;
+        display: flex;
+        color: palevioletred;
+
+        div {
+            margin-right: 0.3em;
+        }
     }
     .link-part {
         color: white;
@@ -112,15 +118,28 @@ p {
 
 //Skills
 .skills {
-    position: relative;
-    height: 61.25em;
-    width: 137.2em;
-    padding: 0.9em;
-    background-color: $light-green;
+    height: 100%;
+    width: 100%;
+    padding: 5em 0.9em 8em 0.9em;
+    background-color: $green;
    
     .ui.header.skills-header {
         color: white;
         text-align: center;
+        font-size: 3em;
+        margin-bottom: 1em;
+    }
+    .ui.header.skills-header::after {
+        content: "";
+        display: block;
+        background: palevioletred;
+        width: 400px;
+        height: 0.8px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        border-bottom: solid calc(0.8px/1) palevioletred;
+        box-shadow: 0 0.8px 0 palevioletred;
     }
 
 }
@@ -134,10 +153,41 @@ p {
     .ui.header.projects-header {
         color: $green;
         text-align: center;
+        font-size: 3em;
+    }
+    .ui.header.projects-header::after {
+        content: "";
+        display: block;
+        background: palevioletred;
+        width: 80px;
+        height: 0.8px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        border-bottom: solid calc(0.8px/1) palevioletred;
+        box-shadow: 0 0.8px 0 palevioletred;
     }
 
     .ui.text.container {
         padding-bottom: 2em;
+    }
+    .github-link {
+        color: palevioletred;
+        font-size: 1.4em;
+        margin-left: 0.4em;
+    }
+    .git-place {
+        margin-top: 2em;
+        display: flex;
+        align-items: center;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    iframe {
+        width: 100%;
     }
 }
 

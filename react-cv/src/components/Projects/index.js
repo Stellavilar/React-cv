@@ -1,8 +1,11 @@
 import React, {Component} from 'react';
-import { Card, Placeholder, Header, Container } from 'semantic-ui-react';
+import { Card, Header, Container } from 'semantic-ui-react';
 
 import YoutubeSAV from '../YoutubeSAV';
 import YoutubeKanban from '../YoutubeKanban';
+import YoutubePokedex from '../YoutubePokedex';
+
+import githubLogo from '../../img/GitHub-Mark-32px.png';
 
 
 class Projects extends Component {
@@ -29,19 +32,33 @@ class Projects extends Component {
         <Card>
           <Card.Content>
             <YoutubeSAV videoId="W2_JOKIKyF0" />
+            <p>Développement d’une application de gestion de service après-vente à destination d’un professionnel.</p>
+            <p>Front: ReactJs</p>
+            <p>Back: PostgreSQL, ExpressJS, NodeJs</p>
+            <div className="git-place">
+              <img className="github-logo" src={githubLogo} alt="github logo" />
+              <a className="github-link" href="https://github.com/Stellavilar/sav-connect" target="blank">Github Repository</a>
+            </div>
           </Card.Content>
         </Card>
         <Card>
           <Card.Content>
             <YoutubeKanban videoId="2j5Z0T39y2U" />
+            <p>Application type "Trello" crée en Javascript Vanilla et connectée à une base de données PostgreSQL</p>
+            <div className="git-place">
+              <img className="github-logo" src={githubLogo} alt="github logo" />
+              <a className="github-link" href="https://github.com/Stellavilar/KANBAN" target="blank">Github Repository</a>
+            </div>
           </Card.Content>
         </Card>
         <Card>
           <Card.Content>
-            <Placeholder>
-              <Placeholder.Image square />
-              Pokedex
-            </Placeholder>
+            <YoutubePokedex videoId="nJkm9eb4CWI" />
+            <p>Application 100% Back end</p>
+            <div className="git-place">
+              <img className="github-logo" src={githubLogo} alt="github logo" />
+              <a className="github-link" href="https://github.com/Stellavilar/Pokedex" target="blank">Github Repository</a>
+            </div>
           </Card.Content>
         </Card>
       </Card.Group>

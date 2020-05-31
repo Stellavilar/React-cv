@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Youtube from 'react-youtube';
 
-class YoutubeKanban extends Component {
+class YoutubePokedex extends Component {
+
     constructor(props) {
         super (props);
         this.state={};
@@ -16,10 +17,8 @@ class YoutubeKanban extends Component {
         const opts= {
           height : "390",
           width: "575",
-        //   playerVars: {
-        //     autoplay: 1,
-        //     }
         };
+
         const {videoId} = this.props;
         return (
             <Youtube
@@ -29,6 +28,7 @@ class YoutubeKanban extends Component {
              />
         )
     };
+
 };
 
-export default YoutubeKanban;
+export default YoutubePokedex;
