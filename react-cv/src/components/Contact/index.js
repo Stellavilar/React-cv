@@ -19,8 +19,8 @@ class Contact extends Component {
             <img src={githubLogo} alt="github logo" className="github-logo"/>
         </a>
         <Mailto email="vilar.stella@gmail.com" obfuscate={true} >
-        vilar.stella@gmail.com
-    </Mailto >
+          vilar.stella@gmail.com
+        </Mailto >
         
       </Container>
       <footer>

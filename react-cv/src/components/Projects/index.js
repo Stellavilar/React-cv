@@ -28,7 +28,7 @@ class Projects extends Component {
           En voici quelques aperçus:
         </p>
       </Container>
-      <Card.Group itemsPerRow={3}>
+      <Card.Group >
         <Card>
           <Card.Content>
             <YoutubeSAV videoId="W2_JOKIKyF0" />
