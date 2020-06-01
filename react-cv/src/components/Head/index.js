@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 
 import logo from '../../img/sv..png';
+import BurgerButton from '../BurgerButton';
 
 
 class Head extends Component {
@@ -47,6 +48,7 @@ class Head extends Component {
                 </Link>
               </div>
           </div>
+          <BurgerButton />
       </div>
     );
   }

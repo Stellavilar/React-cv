@@ -34,6 +34,8 @@ p {
     background-color: $green;
     display: flex;
     align-items: center;
+    position: fixed !important;
+    z-index: 99999999999999;
     
     img {
         width: 50px;
@@ -58,10 +60,44 @@ p {
        display:none;
     }
 
-        .link {
-            display:none
+    .burger-button {
+        i {
+            font-size: 2em;
+            margin-top: 0.5em;
+            color: white;
+        }
+
+        .menu.transition.visible {
+            position: fixed;
+            top: 4em;
+            left: 0;
+            width: 100vw;
+            min-height: calc(100vh-5em);
+            border-radius: 0;
+            
+        
+            .item {
+                text-align: center;
+                font-weight: bold;
+                padding: 1.3em 0 !important;
             }
-    
+        
+            .item:last-child {
+                border: none;
+            }
+
+            a {
+                color: $green;
+
+                &:hover {
+                    color: palevioletred
+                }
+            }
+
+            
+        }
+    }
+
 };
 
 .banner {
@@ -285,6 +321,10 @@ p {
             justify-content: space-between;
             width: 100vw;
             padding-right: 1.5em;
+        }
+
+        .burger-button {
+            display: none;
         }
     
         .name-part {
