@@ -3,11 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import { Dropdown } from 'semantic-ui-react';
 
 class BurgerButton extends Component {
-    constructor(props) {
-        super (props);
-        this.state={};
-      };
-
+  
       render() {
         return (
             <div className="burger-button">
@@ -26,11 +22,6 @@ class BurgerButton extends Component {
                         <Dropdown.Item>
                         <Link to="/#exp">
                             A propos de moi
-                        </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                        <Link to="/#contact">
-                            Contact
                         </Link>
                         </Dropdown.Item>
                     </Dropdown.Menu>

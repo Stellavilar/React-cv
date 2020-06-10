@@ -19,7 +19,7 @@ class Head extends Component {
           </Link>
           <div className="header">
             <div className="name-part" >
-              <div>Stella</div>
+              <div>STELLA</div>
               <div>VILAR</div>
             </div>
               <div className="link-part">
@@ -38,12 +38,6 @@ class Head extends Component {
                   <div 
                    className="link">
                     A propos de moi
-                  </div>
-                </Link>
-                <Link to="/#contact">
-                  <div 
-                   className="link">
-                    Contact
                   </div>
                 </Link>
               </div>
