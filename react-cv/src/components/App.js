@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 
-
 import Head from './Head';
 import Banner from './Banner';
 import Skills from './Skills';
 import Projects from './Projects';
 import Exp from './Exp';
 import Contact from './Contact';
+
 
 class App extends Component {
   
