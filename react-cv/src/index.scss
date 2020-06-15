@@ -409,11 +409,11 @@ p {
         height: 100%;
         width: 100%;
         padding: 5em 0.9em 8em 0.9em;
-        background-color: $green;
+        background-color: white;
         
        
         .ui.header.skills-header {
-            color: white;
+            color: $green;
             text-align: center;
             font-size: 3em;
             margin-bottom: 1em;
