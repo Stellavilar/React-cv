@@ -125,6 +125,16 @@ p {
         color: white;
 
     }
+    .arrow-down {
+        width: 0;
+        height: 0;
+        
+        border-right: 16px solid transparent;
+        border-left: 16px solid transparent;
+        
+        border-top: 20px solid #ffffff;
+        margin-top: 100px;
+    }
 }
 .skills {
     background-color: $green;
@@ -400,6 +410,16 @@ p {
                 background-color: $green;
                 color: white;
             }
+        }
+        .arrow-down {
+            width: 0;
+            height: 0;
+            
+            border-right: 16px solid transparent;
+            border-left: 16px solid transparent;
+            
+            border-top: 20px solid #ffffff;
+            margin-top: 50px;
         }
        
     };

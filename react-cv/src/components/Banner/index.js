@@ -12,6 +12,7 @@ class Banner extends Component {
       <p className="banner-text">Fullstack Javascript</p>
       <p className="banner-text">React JS</p>
       <a  href={pdf} download="CV Vilar Stella"><button>Télécharger CV</button></a>
+      <div className="arrow-down"></div>
     </div>
     );
   };

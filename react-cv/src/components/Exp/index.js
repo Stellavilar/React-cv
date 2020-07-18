@@ -15,7 +15,7 @@ class Exp extends Component {
     <div className="exp" id="exp">
       <Header as="h2" className="exp-header">A PROPOS DE MOI</Header>
       <Container>
-        <p>Passionnée par l'univers Web, je viens de terminer une formation intensive et complète de Javascript Fullstack spécialisation ReactJS, au sein de l'école O'clock.</p>
+        <p>Passionnée par l'univers Web, je viens de terminer une formation intensive et complète de Javascript Fullstack spécialisation ReactJS, au sein de l'école O'clock, labellisée Grande Ecole du Numérique</p>
         <p>Cette formation complète a pour but de me préparer à l'obtention du Titre professionnel de Développeur Web et Web mobile, diplôme équivalent au Bac +2 (session Septembre 2020)</p>
         <p>J'ai pu acquérir de nombreuses notions et aujourd'hui je suis désormais capable de développer des application Javascript, en alliant des stacks Front et Back</p>
         <p>J'ai hâte de mettre mes compétences à l'oeuvre!</p>
