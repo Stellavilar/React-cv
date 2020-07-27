@@ -159,6 +159,15 @@ p {
         border-bottom: solid calc(0.8px/1) palevioletred;
         box-shadow: 0 0.8px 0 palevioletred;
     }
+    .ui.cards {
+        margin: auto;
+    }
+    .ui.card {
+        width: 100px;
+    }
+    .ui.image.logo {
+        margin: auto;
+    }
 }
 .projects {
     padding: 5em 0.9em 8em 0.9em;
@@ -470,18 +479,10 @@ p {
             width: 9%;
             padding: 8px;
         }
-        .ui.card.bootstrap {
-            padding-top: 45px;
+        .ui.image.logo {
+            margin: auto;
         }
-        .ui.card.react {
-            padding-top: 18px;
-        }
-        .ui.card.node {
-            padding-top: 45px;
-        }
-        .ui.card.mongo {
-            padding-top: 60px;
-        }
+       
     }
     
     //Projects 
