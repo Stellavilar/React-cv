@@ -168,6 +168,17 @@ p {
     .ui.image.logo {
         margin: auto;
     }
+    .ui.grey.progress {
+        border-radius: 1em;
+        height: 1em;
+    }
+    .ui.progress .bar {
+        border-radius: 1em;
+        height: 1em;
+    }
+    p { 
+        font-size: 1em;
+    }
 }
 .projects {
     padding: 5em 0.9em 8em 0.9em;
@@ -482,6 +493,17 @@ p {
         .ui.image.logo {
             margin: auto;
         }
+        .ui.grey.progress {
+            border-radius: 1em;
+            height: 1em;
+            margin: auto;
+        }
+        .ui.progress .bar {
+            border-radius: 1em;
+            height: 1em;
+            
+        }
+
        
     }
     
