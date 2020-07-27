@@ -30,26 +30,26 @@ class Skills extends Component {
             <Card>
               <Image className='logo' src={csslogo} alt='css logo'/>
             </Card>
-            <Card>
+            <Card >
+              <Image className='logo' src={sass} alt='sass logo' />
+            </Card>
+            <Card className='react'>
               <Image className='logo' src={reactlogo} alt='react logo' />
             </Card>
-            <Card>
+            <Card className='bootstrap'>
               <Image className='logo-bootstrap' src={bootstrap} alt='bootstrap logo' />
-            </Card>
-            <Card>
-              <Image className='logo-node' src={node} alt='node logo' />
-            </Card>
-            <Card>
-              <Image className='logo-express' src={express} alt='express js logo' />
-            </Card>
-            <Card>
-              <Image className='logo-mongo' src={mongo} alt='mongo db logo' />
             </Card>
             <Card>
               <Image className='logo' src={postgres} alt='postresql logo' />
             </Card>
-            <Card>
-              <Image className='logo' src={sass} alt='sass logo' />
+            <Card className='node'>
+              <Image className='logo-node' src={node} alt='node logo' />
+            </Card>
+            <Card >
+              <Image className='logo-express' src={express} alt='express js logo' />
+            </Card>
+            <Card className='mongo'>
+              <Image className='logo-mongo' src={mongo} alt='mongo db logo' />
             </Card>
           </Card.Group>
     </div>
