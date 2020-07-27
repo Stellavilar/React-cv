@@ -14,7 +14,7 @@ class Banner extends Component {
       <p className="banner-text">React JS</p>
       <a  href={pdf} download="CV Vilar Stella"><button>Télécharger CV</button></a>
       <Link to="/#skills">
-      <div class="arrow bounce"></div>
+      <div className="arrow bounce"></div>
       </Link>
     </div>
     );
