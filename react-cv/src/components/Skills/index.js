@@ -20,6 +20,16 @@ class Skills extends Component {
     return (
     <div className="skills" id="skills">
         <Header as="h2" className="skills-header">COMPÉTENCES TECHNIQUES</Header>
+        <ul>
+          <li>Méthode AGILE (Scrum, Kanban, Github)</li>
+          <li>Réalisation de wireframes et maquettes (diagrams.net, figma.com)</li>
+          <li>Réalisation d'interfaces web statiques (Javascript, React)</li>
+          <li>Développement d'interfaces utilisateur Web dynamiques (Javascript, React, Express JS, EJS)</li>
+          <li>Réalisation d'interfaces utilisateur avec contenu e-commerce (Prestashop, Shopify)</li>
+          <li>Création et branchement de base de données (Express JS, Node JS, PostgreSQL, Mongodb)</li>
+          <li>Utilisation de Websockets (réalisation d'un tchat)</li>
+          <li>Développement Back-end (sqitch, Happi, PSQL, API, AJAX)</li>
+        </ul>
           <Card.Group >
             <Card>
               <Image className='logo' src={jslogo} alt='javascript logo' wrapped ui={false}/>

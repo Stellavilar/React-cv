@@ -55,6 +55,7 @@ class Projects extends Component {
           <Card.Content>
             <YoutubePokedex videoId="nJkm9eb4CWI" />
             <p>Application 100% Back end</p>
+            <p>Javascript, Node Js, Express JS, EJS, PostgreSQL</p>
             <div className="git-place">
               <img className="github-logo" src={githubLogo} alt="github logo" />
               <a className="github-link" href="https://github.com/Stellavilar/Pokedex" target="blank">Github Repository</a>
