@@ -20,8 +20,18 @@ class Exp extends Component {
         <p>J'ai pu acquérir de nombreuses notions et aujourd'hui je suis désormais capable de développer des application Javascript, en alliant des stacks Front et Back</p>
         <p>J'ai hâte de mettre mes compétences à l'oeuvre!</p>
       </Container>
-        <Header as="h3">Expériences professionnelles</Header>
+        <Header as="h3">Expériences </Header>
         <Card.Group>
+        <Card>
+            <Card.Content>
+              <Header as="h4">PROJET JAVASCRIPT FULLSTACK (SAV CONNECT)| O'CLOCK | Avril-Mai 2020</Header>
+              <ul>
+                <li>Application web de gestion de Service Après-vente destinée à un professionnel de l'électronique</li>
+                <li>Lead Dev Front dans un groupe de 4 développeurs</li>
+                <li>Méthode AGILE</li>
+              </ul>
+            </Card.Content>
+          </Card>
           <Card>
             <Card.Content>
               <Header as="h4">ASSISTANTE COMMERCIALE | HT26 PARIS | 2017-2019</Header>
