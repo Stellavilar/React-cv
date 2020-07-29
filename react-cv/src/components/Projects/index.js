@@ -32,6 +32,7 @@ class Projects extends Component {
         <Card>
           <Card.Content>
             <YoutubeSAV videoId="W2_JOKIKyF0" />
+            <Header as='h3'>SAV CONNECT</Header>
             <p>Développement d’une application de gestion de service après-vente à destination d’un professionnel.</p>
             <p>Front: ReactJs</p>
             <p>Back: PostgreSQL, ExpressJS, NodeJs</p>
@@ -44,6 +45,7 @@ class Projects extends Component {
         <Card>
           <Card.Content>
             <YoutubeKanban videoId="2j5Z0T39y2U" />
+            <Header as='h3'>KANBAN</Header>
             <p>Application type "Trello" crée en Javascript Vanilla et connectée à une base de données PostgreSQL</p>
             <div className="git-place">
               <img className="github-logo" src={githubLogo} alt="github logo" />
@@ -54,7 +56,10 @@ class Projects extends Component {
         <Card>
           <Card.Content>
             <YoutubePokedex videoId="nJkm9eb4CWI" />
+            <Header as='h3'>POKEDEX</Header>
             <p>Application 100% Back end</p>
+            <p>Présentation des Pokémons, statistiques, barre de recherche</p>
+            <p>Javascript, Node Js, Express JS, EJS, PostgreSQL</p>
             <div className="git-place">
               <img className="github-logo" src={githubLogo} alt="github logo" />
               <a className="github-link" href="https://github.com/Stellavilar/Pokedex" target="blank">Github Repository</a>

@@ -159,6 +159,29 @@ p {
         border-bottom: solid calc(0.8px/1) palevioletred;
         box-shadow: 0 0.8px 0 palevioletred;
     }
+    .ui.cards {
+        margin: auto;
+    }
+    .ui.card {
+        width: 100px;
+    }
+    .ui.image.logo {
+        margin: auto;
+    }
+    .ui.grey.progress {
+        border-radius: 1em;
+        height: 1em;
+    }
+    .ui.progress .bar {
+        border-radius: 1em;
+        height: 1em;
+    }
+    p { 
+        font-size: 1em;
+    }
+    li {
+        color: white;
+    }
 }
 .projects {
     padding: 5em 0.9em 8em 0.9em;
@@ -466,8 +489,27 @@ p {
             border-bottom: solid calc(0.8px/1) palevioletred;
             box-shadow: 0 0.8px 0 palevioletred;
         }
+        .ui.card {
+            width: 9%;
+            padding: 8px;
+        }
+        .ui.image.logo {
+            margin: auto;
+        }
+        .ui.grey.progress {
+            border-radius: 1em;
+            height: 1em;
+            margin: auto;
+        }
+        .ui.progress .bar {
+            border-radius: 1em;
+            height: 1em;
+        }
+        li {
+            color: $green;
+        }
+
        
-    
     }
     
     //Projects 

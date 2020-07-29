@@ -15,13 +15,23 @@ class Exp extends Component {
     <div className="exp" id="exp">
       <Header as="h2" className="exp-header">A PROPOS DE MOI</Header>
       <Container>
-        <p>Passionnée par l'univers Web, je viens de terminer une formation intensive et complète de Javascript Fullstack spécialisation ReactJS, au sein de l'école O'clock, labellisée Grande Ecole du Numérique</p>
-        <p>Cette formation complète a pour but de me préparer à l'obtention du Titre professionnel de Développeur Web et Web mobile, diplôme équivalent au Bac +2 (session Septembre 2020)</p>
+        <p>Passionnée par le développement web, j’ai pris la décision d’en faire mon métier et d’établir un projet de reconversion professionnelle.</p>
+        <p>Pour me former et obtenir un Titre professionnel de Développement Web et web mobile (Bac +2 ), j’ai choisi l’école O’clock : une école en plein essor, labellisée par la Grande du Numérique, et j’ai eu l’opportunité́ d’y être admise et suivre une formation intensive de 6 mois de Développeur Fullstack JavaScript Spécialisation React, avec à la clé́ un projet complet construit en équipe pendant 1 mois : une application web de gestion de service après-vente. </p>
         <p>J'ai pu acquérir de nombreuses notions et aujourd'hui je suis désormais capable de développer des application Javascript, en alliant des stacks Front et Back</p>
         <p>J'ai hâte de mettre mes compétences à l'oeuvre!</p>
       </Container>
-        <Header as="h3">Expériences professionnelles</Header>
+        <Header as="h3">Expériences </Header>
         <Card.Group>
+        <Card>
+            <Card.Content>
+              <Header as="h4">PROJET JAVASCRIPT FULLSTACK (SAV CONNECT)| O'CLOCK | Avril-Mai 2020</Header>
+              <ul>
+                <li>Application web de gestion de Service Après-vente destinée à un professionnel de l'électronique</li>
+                <li>Lead Dev Front dans un groupe de 4 développeurs</li>
+                <li>Méthode AGILE</li>
+              </ul>
+            </Card.Content>
+          </Card>
           <Card>
             <Card.Content>
               <Header as="h4">ASSISTANTE COMMERCIALE | HT26 PARIS | 2017-2019</Header>
