@@ -23,15 +23,15 @@ class Head extends Component {
               <div>VILAR</div>
             </div>
               <div className="link-part">
-                <Link to="/#skills">
-                  <div  className="link">
-                  Compétences techniques
-                  </div>
-                </Link>
                 <Link to="/#projects">
                   <div 
                    className="link">
                     Projets
+                  </div>
+                </Link>
+                <Link to="/#skills">
+                  <div  className="link">
+                  Compétences techniques
                   </div>
                 </Link>
                 <Link to="/#exp">

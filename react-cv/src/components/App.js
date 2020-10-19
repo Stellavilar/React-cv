@@ -20,8 +20,8 @@ class App extends Component {
     <div className="app">
       <Head />
       <Banner />
-      <Skills />
       <Projects />
+      <Skills />
       <Exp />
       <Contact />
     </div>

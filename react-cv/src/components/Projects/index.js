@@ -1,32 +1,19 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { Card, Header, Container } from 'semantic-ui-react';
-
 import YoutubeSAV from '../YoutubeSAV';
-import YoutubeKanban from '../YoutubeKanban';
 import YoutubePokedex from '../YoutubePokedex';
 
 import githubLogo from '../../img/GitHub-Mark-32px.png';
+import funnyQuiz from '../../img/FunnyQuiz.png';
 
 
-class Projects extends Component {
+const Projects = () => {
 
-  constructor(props) {
-    super (props);
-    this.state={};
-  }
-
-  render() {
-    
     return (
     <div className="projects" id="projects">
       <Header as="h2" className="projects-header">PROJETS</Header>
       <Container text>
-        <p>
-          Dans le cadre de ma formation intensive de Développeur Web et Web mobile à l'école O'Clock, j'ai réalisé, seule et en équipe, divers projets.
-        </p>
-        <p>
-          En voici quelques aperçus:
-        </p>
+        <p>Voici des projets développés seule et également dans le cadre de ma formation de Développeur et Web et Web mobile</p>
       </Container>
       <Card.Group >
         <Card>
@@ -44,12 +31,14 @@ class Projects extends Component {
         </Card>
         <Card>
           <Card.Content>
-            <YoutubeKanban videoId="2j5Z0T39y2U" />
-            <Header as='h3'>KANBAN</Header>
-            <p>Application type "Trello" crée en Javascript Vanilla et connectée à une base de données PostgreSQL</p>
+            <a href="https://google.fr" target="blank">
+              <img className="funny-quiz" src={funnyQuiz} alt="Funny Quiz" />
+            </a>
+            <Header as='h3'>Funny Quiz</Header>
+            <p>C'est un projet personnel développé seule, un quiz regroupant différentes questions choisies sur le site OpenQuizzDB. Le Front est codé 100% en React et le Back en Node, la base de données a été crée sous Postgres et le branchement entre le back et le front a été possible via une API Rest</p>
             <div className="git-place">
               <img className="github-logo" src={githubLogo} alt="github logo" />
-              <a className="github-link" href="https://github.com/Stellavilar/KANBAN" target="blank">Github Repository</a>
+              <a className="github-link" href="https://github.com/Stellavilar/FunnyQuiz" target="blank">Github Repository</a>
             </div>
           </Card.Content>
         </Card>
@@ -68,10 +57,7 @@ class Projects extends Component {
         </Card>
       </Card.Group>
     </div>
-    );
-  }
- 
-  
-}
+  );
+};
 
 export default Projects;
