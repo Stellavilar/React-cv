@@ -5,6 +5,7 @@
 $green: #081214;
 $light-green: #193F2A;
 $pink: #E1C6C6;
+$beige: #F1EEE8;
 $bg: url('../src/img/background-plants.png');
 
 
@@ -470,9 +471,23 @@ p {
         height: 100%;
         width: 100%;
         padding: 5em 0.9em 8em 0.9em;
-        background-color: white;
-        
-       
+        background-color: $beige;
+
+        .ui.list {
+            font-size: 1.3em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .item {
+                margin-bottom: 10px;
+            }
+            .icon {
+                color: palevioletred;
+            }
+            
+        }
+
         .ui.header.skills-header {
             color: $green;
             text-align: center;
@@ -491,25 +506,7 @@ p {
             border-bottom: solid calc(0.8px/1) palevioletred;
             box-shadow: 0 0.8px 0 palevioletred;
         }
-        .ui.card {
-            width: 9%;
-            padding: 8px;
-        }
-        .ui.image.logo {
-            margin: auto;
-        }
-        .ui.grey.progress {
-            border-radius: 1em;
-            height: 1em;
-            margin: auto;
-        }
-        .ui.progress .bar {
-            border-radius: 1em;
-            height: 1em;
-        }
-        li {
-            color: $green;
-        }
+        
 
        
     }
@@ -519,7 +516,19 @@ p {
         height: 100%;
         width: 100%;
         padding: 5em 0.9em 8em 0.9em;
+        background-color: $beige;
+
+        .applis {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .ui.card {
+                box-shadow: 4px 8px 8px 0px #656565;
+            }
+        }
     
+        
         .ui.header.projects-header {
             color: $green;
             text-align: center;
@@ -541,27 +550,7 @@ p {
         .ui.text.container {
             padding-bottom: 2em;
         }
-        .github-link {
-            color: palevioletred;
-            font-size: 1.4em;
-            margin-left: 0.4em;
-        }
-        .git-place {
-            margin-top: 2em;
-            display: flex;
-            align-items: center;
-        }
-        .content {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        iframe {
-            width: 100%;
-        }
-        .funny-quiz {
-            width: 100%;
-        }
+       
     }
     
     //Experiences
@@ -569,6 +558,7 @@ p {
         height: 100%;
         width: 100%;
         padding: 5em 0.9em 8em 0.9em;
+        background-color: $beige;
     
         .ui.header.exp-header {
             color: $green;
