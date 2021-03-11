@@ -520,11 +520,14 @@ p {
 
         .applis {
             display: flex;
-            justify-content: space-around;
-            align-items: center;
+            justify-content: space-between;
+            align-content: center;
 
             .ui.card {
                 box-shadow: 4px 8px 8px 0px #656565;
+                margin-right: 20px;
+                height:550px;
+
             }
         }
     
