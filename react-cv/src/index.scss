@@ -142,11 +142,11 @@ p {
         }
 }
 .skills {
-    background-color: $green;
+    background-color: "white";
     padding: 5em 0.9em 8em 0.9em;
 
     .ui.header.skills-header {
-        color: white;
+        color: $green;
         text-align: center;
     }
 

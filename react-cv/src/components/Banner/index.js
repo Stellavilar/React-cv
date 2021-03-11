@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 
-import pdf from '../../img/CV Vilar Stella .pdf';
+import pdf from '../../img/CV Vilar Stella Dev web.pdf';
 
 class Banner extends Component {
   

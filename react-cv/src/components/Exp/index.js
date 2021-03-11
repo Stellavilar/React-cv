@@ -16,9 +16,10 @@ class Exp extends Component {
       <Header as="h2" className="exp-header">A PROPOS DE MOI</Header>
       <Container>
         <p>Passionnée par le développement web, j’ai pris la décision d’en faire mon métier et d’établir un projet de reconversion professionnelle.</p>
-        <p>Pour me former et obtenir un Titre professionnel de Développement Web et web mobile (Bac +2 ), j’ai choisi l’école O’clock : une école en plein essor, labellisée par la Grande du Numérique, et j’ai eu l’opportunité́ d’y être admise et suivre une formation intensive de 6 mois de Développeur Fullstack JavaScript Spécialisation React, avec à la clé́ un projet complet construit en équipe pendant 1 mois : une application web de gestion de service après-vente. </p>
-        <p>J'ai pu acquérir de nombreuses notions et aujourd'hui je suis désormais capable de développer des application Javascript, en alliant des stacks Front et Back</p>
-        <p>J'ai hâte de mettre mes compétences à l'oeuvre!</p>
+        <p>Pour cela, j’ai choisi l’école O’clock : une école en plein essor, labellisée par la Grande du Numérique, et j’ai eu l’opportunité́ d’y être admise et suivre une formation intensive de 6 mois de Développeur Fullstack JavaScript Spécialisation React, avec à la clé́ un projet complet construit en équipe pendant 1 mois : une application web de gestion de service après-vente. </p>
+        <p>J'ai pu acquérir de nombreuses notions et aujourd'hui je suis désormais capable de développer des application Javascript, en alliant des stacks Front et Back.</p>
+        <p>J'ai obtenu le Titre professionnel de Développeur Web et Web mobile (bac +2) en décembre 2020. </p>
+       
       </Container>
         <Header as="h3">Expériences </Header>
         <Card.Group>

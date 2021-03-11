@@ -20,11 +20,7 @@ class Skills extends Component {
           </List.Item>
           <List.Item>
             <List.Icon name='check square outline' />
-            <List.Content>Réalisation d'interfaces web statiques (Javascript, React)</List.Content>
-          </List.Item>
-          <List.Item>
-            <List.Icon name='check square outline' />
-            <List.Content>Développement d'interfaces utilisateur Web dynamiques (Javascript, React, Express JS, EJS)</List.Content>
+            <List.Content>Développement d'interfaces utilisateur Web statiques et dynamiques (Javascript, React, React Native, Redux, Angular, Express JS, EJS)</List.Content>
           </List.Item>
           <List.Item>
             <List.Icon name='check square outline' />
@@ -32,23 +28,23 @@ class Skills extends Component {
           </List.Item>
           <List.Item>
             <List.Icon name='check square outline' />
-            <List.Content>Création et branchement de base de données (Express JS, Node JS, PostgreSQL, Mongodb)</List.Content>
+            <List.Content>Création et branchement de base de données (Express JS, Node JS, PostgreSQL, MYSQL, Mongodb)</List.Content>
           </List.Item>
           <List.Item>
             <List.Icon name='check square outline' />
-            <List.Content>Utilisation de Websockets (réalisation d'un tchat)</List.Content>
+            <List.Content>Websockets (réalisation d'un tchat)</List.Content>
           </List.Item>
           <List.Item>
             <List.Icon name='check square outline' />
-            <List.Content>Développement Back-end (sqitch, Happi, PSQL, API, AJAX)</List.Content>
+            <List.Content>Développement Back-end (sqitch, Happi, PSQL, API, AJAX, Méthode MVC pour la création d'API)</List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name='check square outline' />
+            <List.Content> AWS (instances EC2, Cloudfront, S3, Lambda)</List.Content>
           </List.Item>
           <List.Item>
             <List.Icon name='download' />
             <List.Content>PHP</List.Content>
-          </List.Item>
-          <List.Item>
-            <List.Icon name='download' />
-            <List.Content>JQuery</List.Content>
           </List.Item>
         </List>
     </div>
