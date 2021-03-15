@@ -16,7 +16,7 @@ const Projects = () => {
       <div className='applis'>
         {/* funnyquiz card */}
         <Card>
-          <Image src={funnyQuiz} wrapped ui={false} as='a' href='http://ec2-54-91-42-56.compute-1.amazonaws.com/' target='blank' />
+          <Image src={funnyQuiz} wrapped ui={false} as='a' href='https://stellavilar.github.io/funny-quiz-client/#/' target='blank' />
         <Card.Content>
           <Card.Header>Funny Quiz</Card.Header>
           <Card.Meta>
