@@ -37,7 +37,7 @@ const Projects = () => {
         </Card>
         {/* savConnect card */}
         <Card>
-          <Image src={savConnect} wrapped ui={false} as='a' href='http://ec2-18-208-219-38.compute-1.amazonaws.com' target='blank' />
+          <Image src={savConnect} wrapped ui={false} as='a' href='https://stellavilar.github.io/sav-connect-client/#/' target='blank' />
         <Card.Content>
           <Card.Header>Sav-connect</Card.Header>
           <Card.Meta>
