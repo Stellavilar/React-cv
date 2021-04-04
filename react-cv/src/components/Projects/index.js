@@ -3,6 +3,7 @@ import { Card, Header, Container, Image, Icon } from 'semantic-ui-react';
 import funnyQuiz from '../../img/FunnyQuiz.png';
 import savConnect from '../../img/sav-connect.png';
 import todolist from '../../img/todolist.png';
+import football from '../../img/football-results.png'
 
 
 const Projects = () => {
@@ -52,6 +53,27 @@ const Projects = () => {
         </Card.Content>
         <Card.Content extra>
           <a href="https://github.com/Stellavilar/sav-connect" target="blank">
+            <Icon name='github' />
+            GitHub Repository
+          </a>
+        </Card.Content>
+        </Card>
+        {/* football-results card */}
+        <Card>
+          <Image src={football} wrapped ui={false} as='a' href='https://stellavilar.github.io/football-results/#/' target='blank' />
+        <Card.Content>
+          <Card.Header>Football Results</Card.Header>
+          <Card.Meta>
+            <span className='description'>Actualité footballistique</span>
+          </Card.Meta>
+          <Card.Description>
+            Passionnée de football, j'ai réalisé une application regroupant tous les résultats, calendriers et meilleurs buteurs des 5 grands championnats Européens.
+            Pour configurer les données, j'ai réalisé une API via AWS API Gateway en programmant une application côté serveur grâce à Express et Serverless.
+            Le rendu est codé en React / Redux.
+          </Card.Description>
+        </Card.Content>
+        <Card.Content extra>
+          <a href="https://github.com/Stellavilar/football-results" target="blank">
             <Icon name='github' />
             GitHub Repository
           </a>
